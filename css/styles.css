@@ -3,6 +3,8 @@
 @import "header.css";
 @import "form.css";
 @import "variables.css";
+@import "nav-bar.css";
+
 svg{
     width:20px;
     height:20px;

@@ -1,0 +1,9 @@
+.nav{
+    padding:20px 30px;
+    background-color: rgba(158, 149, 149, 0.07);
+}
+
+.nav__ul{
+display: flex;
+justify-content: space-between;
+}
