@@ -7,7 +7,7 @@
 @import "component/screen-header.css";
 @import "screen/friends.css";
 @import "component/user_component.css";
-
+@import "component/badge.css";
 svg{
     width:20px;
     height:20px;
