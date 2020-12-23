@@ -1,0 +1,35 @@
+.user-component{
+    justify-content: space-between;
+}
+.user-component,
+.user-component__column:first-child{
+    display:flex;
+    align-items: center;
+}
+.user-component__avatar{
+    border-radius: 20px;
+    width:45px;
+    height:45px;
+    
+}
+.user-component__title{
+    font-weight: 600;
+    margin: 0px 10px;
+}
+.user-component__subtitle{
+    color:rgba(0,0,0,0.4);
+    margin-top: 3px;
+}
+
+.user-component__avatar-xl{
+    width:55px;
+    height:55px;
+}
+.user-component__avatar-sm{
+    width:40px;
+    height:40px;
+    border-radius: 18px;
+}
+.user-component__column:last-child{
+    color:rgba(0,0,0,0.5);
+}
