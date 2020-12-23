@@ -25,17 +25,8 @@ justify-content: space-between;
     left:14px;
 }
 
-.nav__notification4{
-    background-color: tomato;
-    width:5px;
-    height:5px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2.5px;
-    color: white;
-    font-size:small;
-    font-weight: 400;
+.nav__notification-sm{
+    
     position:absolute;
     bottom:17px;
     left:17px;

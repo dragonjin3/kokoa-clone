@@ -11,3 +11,15 @@
     font-weight: 400;
     
 }
+.badge-sm{
+    background-color: tomato;
+    width:5px;
+    height:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5px;
+    color: white;
+    font-size:small;
+    font-weight: 400;
+}
