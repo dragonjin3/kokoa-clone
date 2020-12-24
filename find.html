@@ -27,12 +27,11 @@
     </div>
     
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span class="screen-header__dot"><i class="fas fa-cog fa-lg"></i><div class="screen-header__notification badge-sm"></div></span>
+            
         </div>
     </header>
    
@@ -40,45 +39,16 @@
     
 
     <main class="user-component__main">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="picture/person.jpg"
-                class="user-component__avatar"
-                />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">anya</h4>
-                    <h6 class="user-component__subtitle">hi, what are you doing now? </h6>
-                </div>
-                
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
-            </div>
+        <div class="find-icons">
+            <div class="find-icons__icon"><i class="fas fa-qrcode"></i><span>QR code</span></div>
+            <div class="find-icons__icon"><i class="far fa-address-book"></i><span>Add by<br>Contacts</span></div>
+            <div class="find-icons__icon"><i class="fas fa-fingerprint"></i><span>Add by ID</span></div>
+            <div class="find-icons__icon"><i class="far fa-envelope"></i><span>Invite</span></div>
         </div>
-       
-        
-    </main>
-
-    <main class="user-component__main">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="picture/person.jpg"
-                class="user-component__avatar"
-                />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">anya</h4>
-                    <h6 class="user-component__subtitle">hi, what are you doing now? </h6>
-                </div>
-                
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
-            </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends-title">Recommended Friends</h6>
+            <span>You have no recommended friends.</span>
         </div>
-       
-        
     </main>
 
     
@@ -92,7 +62,7 @@
             </li>
         <li class="nav__li">
             <a class="nav__a" href="chats.html">   
-            <i class="fas fa-comment fa-lg"></i>
+            <i class="far fa-comment fa-lg"></i>
             <sapn class="nav__notification badge">1</sapn>
         </a>
         </li>

@@ -1,0 +1,38 @@
+.find-icons{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+    
+}
+.find-icons__icon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+.find-icons__icon i{
+    font-size:20px;
+}
+.find-icons__icon span{
+    font-size:12px;
+}
+
+.find-icons__icon span{
+    margin-top:15px;
+}
+
+.recommended-friends{
+    border-top: var(--main-border);
+    border-bottom:var(--main-border);
+    padding:15px;
+    color:var(--grey-color);
+    font-size:13px;
+}
+.recommended-friends span{
+    margin : 70px 0px;
+    display: block;
+    text-align: center;
+    
+}
