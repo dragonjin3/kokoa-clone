@@ -1,0 +1,21 @@
+.main-screen{
+    padding: 0px var(--horizontal);
+}
+
+.settings-setting{
+    padding: 15px 0px;
+    font-size:13px;
+    border-bottom:1px solid rgba(0,0,0,0.01);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-setting i{
+    margin-right:10px;
+    opacity: 0.9;
+}
+
+.settings-setting__column:nth-child(2){
+    opacity: 0.7;
+}

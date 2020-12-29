@@ -23,3 +23,14 @@
     font-size:small;
     font-weight: 400;
 }
+.exclamation-mark{
+    font-size:10px;
+    display: block;
+    border:1px solid tomato;
+    color:tomato;
+    width:10px;
+    height:10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left:5px;
+}

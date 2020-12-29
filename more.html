@@ -27,61 +27,58 @@
     </div>
     
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span class="screen-header__dot"><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a></span>
+            
         </div>
     </header>
    
+    <main class="user-component__main more-main">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="picture/person.jpg"
+                class="user-component__avatar user-component__avatar-xl"
+                />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">park</h4>
+                   <h6 class="user-component__subtitle more-subtitle__number">+1 010-1577-7890 <span class="exclamation-mark">!</span></h6>
+                   
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
+        
+        <div class="icon-row">
+            <div class="icon-row__icon"><i class="far fa-calendar"></i><span>Calendar</span></div>
+            <div class="icon-row__icon"><i class="fas fa-shopping-basket"></i><span>Talk Drive</span></div>
+            <div class="icon-row__icon"><i class="far fa-smile"></i><span>Emotions</span></div>
+            <div class="icon-row__icon"><i class="fas fa-paint-roller"></i><span>Themes</span></div>
+           
+        </div>
+        <div class="icon-row icon-row-second">
+        <div class="icon-row__icon"><i class="fas fa-file-invoice-dollar"></i><span>Account</span></div>
+        <div class="icon-row__icon"><i class="far fa-comments"></i><span>Openchat</span></div>
+        </div>
+        
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="more-sugestions__icon-text">Kokoa Story</div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     
-
-    <main class="user-component__main">
-        <a href="chat.html">
-        <div class="user-component">
-            
-            <div class="user-component__column">
-                <img src="picture/person.jpg"
-                class="user-component__avatar"
-                />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">anya</h4>
-                    <h6 class="user-component__subtitle">hi, what are you doing now? </h6>
-                </div>
-                
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
-            </div>
-        </div>
-    </a>
-        
-    </main>
-
-    <main class="user-component__main">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="picture/person.jpg"
-                class="user-component__avatar"
-                />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">anya</h4>
-                    <h6 class="user-component__subtitle">hi, what are you doing now? </h6>
-                </div>
-                
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
-            </div>
-        </div>
-       
-        
-    </main>
 
     
 
@@ -94,7 +91,7 @@
             </li>
         <li class="nav__li">
             <a class="nav__a" href="chats.html">   
-            <i class="fas fa-comment fa-lg"></i>
+            <i class="far fa-comment fa-lg"></i>
             <sapn class="nav__notification badge">1</sapn>
         </a>
         </li>
