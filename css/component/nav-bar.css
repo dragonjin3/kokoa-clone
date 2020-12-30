@@ -18,16 +18,62 @@ justify-content: space-between;
 
 .nav__a{
     position: relative;
+
 }
+
+
+@keyframes notification-nav{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform:translateY(10px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+
 .nav__notification{
     position:absolute;
     bottom:8px;
     left:14px;
+    animation: notification-nav 2s ease-in-out infinite;
 }
+
+
 
 .nav__notification-sm{
     
     position:absolute;
     bottom:17px;
     left:17px;
+}
+
+@keyframes puff-nav{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+.nav__li{
+transform: translateY(50px);
+animation: puff-nav 1s ease-in-out forwards;
+}
+
+.nav__li:nth-child(2){
+animation-delay: 0.3s;
+}
+
+.nav__li:nth-child(3){
+animation-delay: 0.6s;
+}
+.nav__li:last-child{
+animation-delay: 0.9s;
 }

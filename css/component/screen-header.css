@@ -26,3 +26,19 @@
   bottom:20px;
   left:20px;
 }
+
+@keyframes rotate-cog{
+  from{
+    transform: none;
+  }
+  to{
+    transform:rotateZ(360deg);
+  }
+ 
+}
+
+
+.screen-header__icons .fa-cog:hover{
+  will-change: transform;
+animation: rotate-cog 1s linear infinite;
+}
