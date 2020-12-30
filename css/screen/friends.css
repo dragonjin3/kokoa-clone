@@ -35,3 +35,27 @@
     font-weight: 100;   
 }
 
+@keyframes hidesplashscreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+#splash-screen{
+    background-color: gold;
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:65px;
+    animation: hidesplashscreen 1s ease-in-out forwards;
+    animation-delay: 1s;
+}
